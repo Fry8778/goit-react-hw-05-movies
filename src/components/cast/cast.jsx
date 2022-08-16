@@ -22,8 +22,8 @@ const Cast = () => {
 
   return (
     <ul>
-      {data.map((el,idx) => (
-        <li key={el.id + idx}>
+      {data.map(el => (
+        <li key={el.id}>
           <img
                 src={
                   el.profile_path
