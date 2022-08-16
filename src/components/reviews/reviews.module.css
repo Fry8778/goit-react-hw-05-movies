@@ -1,0 +1,21 @@
+.notInfo {
+    font-size: 30px;
+    color: tomato;
+    text-align: center;
+    }
+    
+    .item {
+      padding: 4px;
+      border-radius: 4px;
+      margin-bottom: 30px;
+    }
+    .author {
+      font-size: 18px;
+      margin-bottom: 5px;
+     
+    }
+    .content {
+      font-size: 17px;
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }

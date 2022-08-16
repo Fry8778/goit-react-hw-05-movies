@@ -1,0 +1,29 @@
+.form{
+    height: 100px;
+    text-align: center; 
+}
+
+.button{
+    padding: 5px 10px; 
+    margin: 20px 0 20px 20px;
+    background-color: rgba(128, 180, 240, 0.952);
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+}
+
+.button:hover{
+    background-color: rgba(47, 139, 245, 0.952);
+    color: #000;
+}
+
+
+.input{    
+    font-size: 18px;  
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}

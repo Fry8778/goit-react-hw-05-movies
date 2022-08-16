@@ -1,0 +1,13 @@
+.link{
+    font-size: 20px;
+    color: black;
+   text-decoration: none;
+
+}
+.link:hover{
+    color: rgba(128, 180, 240, 0.952);
+}
+
+.list:not(:last-child){
+   margin-bottom: 10px;
+}

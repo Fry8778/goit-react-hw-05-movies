@@ -1,0 +1,38 @@
+.wrap {
+    display: flex;
+    color: #282828;
+  }
+  
+  .link{   
+    padding: 5px 10px; 
+    margin: 20px 0 20px 20px;
+    background-color: rgba(128, 180, 240, 0.952);
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .link:hover{
+    background-color: rgba(47, 139, 245, 0.952);
+    color: #000;
+  }
+  .img {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .info {
+    padding-top: 15px;
+    
+  }
+  .title {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+  }
+  .year {
+    margin-left: 5px;
+  }
+  .subtitle {
+    margin: 10px;
+  }
