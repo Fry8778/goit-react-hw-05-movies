@@ -1,6 +1,6 @@
 import { lazy } from 'react';
 import { Route, Routes, Navigate } from 'react-router-dom';
-import ShareLayout from './sharedLayout/sharedLayout';
+import SharedLayout from './sharedLayout/sharedLayout';
 
 
 const Home = lazy(() => import('../pages/homePage/homePage'));
@@ -12,7 +12,7 @@ const Reviews = lazy(() => import('./reviews/reviews'));
 export const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<ShareLayout />}>
+      <Route path="/" element={<SharedLayout />}>
         <Route index element={<Home />} />
         <Route path="movies" element={<Movies />} />
         <Route path="movies/:movieId" element={<MoviesDetails />}>
