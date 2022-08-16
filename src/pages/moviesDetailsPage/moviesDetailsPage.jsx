@@ -4,7 +4,7 @@ import api from '../../api/api';
 import FilmDetails from '../../components/filmDetails/filmDetails';
 import MovieInfo from '../../components/movieInfo/movieInfo';
 
-const MovieDetails = () => {
+const MoviesDetails = () => {
   const [data, setData] = useState({});
   const { movieId } = useParams();
   useEffect(() => {
@@ -47,4 +47,4 @@ const MovieDetails = () => {
   );
 };
 
-export default MovieDetails;
+export default MoviesDetails;

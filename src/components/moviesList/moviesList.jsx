@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 import s from './moviesList.module.css';
 import PropTypes from 'prop-types';
 
-const List = ({ data }) => {
+const MoviesList = ({ data }) => {
 const location = useLocation();
 
   return (
@@ -18,8 +18,8 @@ const location = useLocation();
   );
 };
 
-List.propTypes = {
+MoviesList.propTypes = {
   data: PropTypes.array.isRequired,
 };
 
-export default List;
+export default MoviesList;
