@@ -8,16 +8,12 @@ class dataFetchApi {
   #TRAND = 'trending/movie/day';
   #BASE = 'movie/';
 
-  //? Home trend
-
   trend = async page => {
     const respons = await axios.get(
       `${this.#TRAND}?api_key=${API_KEY}&page=${page}`
     );
     return respons.data.results;
   };
-
-  //? search form
 
   search = async (query, page) => {
     const respons = await axios.get(
@@ -26,15 +22,11 @@ class dataFetchApi {
     return respons.data;
   };
 
-  //? fetchId
-
   fetchId = async id => {
     const respons = await axios.get(`${this.#BASE}/${id}?api_key=${API_KEY}`);
 
     return respons.data;
   };
-
-  //? Cast
 
   cast = async id => {
     const respons = await axios.get(
@@ -43,8 +35,6 @@ class dataFetchApi {
 
     return respons.data.cast;
   };
-
-  //? Reviews
 
   reviews = async id => {
     const respons = await axios.get(
